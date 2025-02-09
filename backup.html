@@ -1,0 +1,124 @@
+<div class="FlexCenter class_div-content-all">
+    <div style="z-index: 3; position: absolute;">
+      <section class="FlexCenter">
+        <div class="FlexCenter">
+          <button class="narvetbutton2">TCHIKAMODZ'S PROJECTS</button>
+        </div>
+        
+        
+        
+        <div class="FlexCenter213">
+        
+          <div class="FlexCenter">
+            <div>
+              <div class="narvetbutton">
+                <button onclick="toggleHidden('hidden2')" class="FlexCenter">
+                  <span>[BLACK OPS II]</span>
+                  <span>MINI OB2S</span>
+                </button>
+              </div>
+              <div class="narvetbutton">
+                <button onclick="toggleHidden('hidden3')" class="FlexCenter">
+                  <span>[BLACK OPS II]</span>
+                  <span>VISION RTM 80</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="FlexCenter">
+            <div>
+              <div class="narvetbutton">
+                <button onclick="toggleHidden('hidden4')" class="FlexCenter">
+                  <span>[MODERN WARFARE 2]</span>
+                  <span>MINI OB2S</span>
+                </button>
+              </div>
+              <div class="narvetbutton">
+                <button onclick="toggleHidden('hidden5')" class="FlexCenter">
+                  <span>[BLACK OPS III]</span>
+                  <span>WIREFRAME</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+  
+        <div>
+          <div class="hidden1">
+          </div>
+          <div id="hidden2">
+            <div class="FlexCenter">
+              <div class="FlexCenter ClassDiv124">
+                <p>[HEN|CFW] [BLACK OPS II] MINI OB2S</p>
+                <button class="BTN-DOWNLOAD-PARTN">In Developement</button>
+              </div>
+            </div>
+          </div>
+          <div id="hidden3">
+            <div class="FlexCenter">
+              <div class="FlexCenter ClassDiv124">
+                <p>[HEN|CFW] [BLACK OPS II] VISION RTM 80</p>
+                <!-- <button class="BTN-DOWNLOAD-PARTN"><i class="fa-solid fa-file-arrow-down"></i> Download</button> -->
+                <button class="BTN-DOWNLOAD-PARTN" id="linkmod44"><i class="fa-solid fa-file-arrow-down"></i> Download</button>
+              </div>
+            </div>
+          </div>
+          <div id="hidden4">
+            <div class="FlexCenter">
+              <div class="FlexCenter ClassDiv124">
+                <p>[HEN|CFW] [MODERN WARFARE 2] MINI OB2S</p>
+                <button class="BTN-DOWNLOAD-PARTN">In Developement</button>
+                <!-- onclick="window.location.href='@downloads/'" download -->
+              </div>
+            </div>
+          </div>
+          <div id="hidden5">
+            <div class="FlexCenter">
+              <div class="FlexCenter ClassDiv124">
+                <p>[HEN|CFW] [BLACK OPS III] WireFrame RTM</p>
+                <button class="BTN-DOWNLOAD-PARTN" id="linkmod33"><i class="fa-solid fa-file-arrow-down"></i> Download</button>
+              </div>
+            </div>
+          </div>
+          </div>
+  
+          <script>
+  
+            // id= linkmod11 or linkmod22 or linkmod33 or linkmod44
+  
+            // const linkmod1 = document.getElementById("linkmod11");
+            // linkmod1.addEventListener("click", function() {
+            //     window.open("", "_blank");
+            // });
+            // const linkmod2 = document.getElementById("linkmod22");
+            // linkmod2.addEventListener("click", function() {
+            //     window.open("", "_blank");
+            // });
+            const linkmod3 = document.getElementById("linkmod33");
+            linkmod3.addEventListener("click", function() {
+                window.open("https://www.mediafire.com/file/8cazs1bg2g9e4qa/WireFrameToolBo3.rar/file", "_blank");
+            });
+            const linkmod4 = document.getElementById("linkmod44");
+            linkmod4.addEventListener("click", function() {
+                window.open("https://www.mediafire.com/file/8phjgg045ikxx3v/VisionsRTM.rar/file", "_blank");
+            });
+          </script>
+  
+  
+      </section>
+      </div>
+  </div>
+  
+  <script>
+  function toggleHidden(elementId) {
+    var elements = ["hidden2", "hidden3", "hidden4", "hidden5"];
+  
+    for (var i = 0; i < elements.length; i++) {
+      var element = document.getElementById(elements[i]);
+      if (element) {
+        element.style.display = (elements[i] === elementId) ? "block" : "none";
+      }
+    }
+  }
+  </script>
